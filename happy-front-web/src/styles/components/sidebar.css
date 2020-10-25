@@ -38,7 +38,7 @@ aside footer button:hover {
 	background: #17D6EB;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
 	aside.app-sidebar {
 		top: 0;
 
@@ -61,7 +61,7 @@ aside footer button:hover {
 	}
 }
 
-@media (min-width: 700px) and (max-width: 980px) {
+@media (min-width: 650px) and (max-width: 900px) {
 	aside.app-sidebar {
 		width: 90px;
 		padding: 30px 22px;
