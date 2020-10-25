@@ -1,0 +1,15 @@
+.page-404 {
+    color: #000;
+
+    text-align: center;
+
+    margin-top: 45px;
+}
+
+.page-404 img {
+    width: 400px;
+
+    margin-top: 50px;
+
+    border-radius: 20px;
+}

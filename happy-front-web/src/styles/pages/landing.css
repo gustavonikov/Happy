@@ -1,0 +1,174 @@
+#landing-page {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 40px;
+
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-page .content-wrapper {
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 500px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url('../../images/Ilustra02.svg') no-repeat 70% center;
+    background-size: contain;
+}   
+
+#landing-page .content-wrapper main {
+    max-width: 350px; /* 350px */
+    width: 250px;
+}
+
+#landing-page .content-wrapper main h1 {
+    font-size: 50px; /* 76px */
+    font-weight: 900;
+    line-height: 50px;
+}
+
+#landing-page .content-wrapper main p {
+    margin-top: 28px; /* 40px */
+    /*font-size: 24px */
+    line-height: 20px;
+}
+
+.content-wrapper .location {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.content-wrapper .location strong {
+    font-weight: 800;
+}
+
+.content-wrapper .enter-app {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #ffd666;
+
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover {
+    background: #96feff;
+}
+
+@media (max-width: 700px) {
+    #landing-page {
+        padding: 18px 24px;
+    }
+
+    #landing-page .content-wrapper {
+        margin: 0 auto;
+
+        background-size: 170px;
+        background-position-y: 25%;
+        background-position-x: center;
+
+        max-height: 100vh;
+    }
+
+    #landing-page .content-wrapper img {
+        width: 95px;
+    }
+
+    #landing-page .content-wrapper main {
+        max-width: 80vw;
+        margin-bottom: 87px;
+        padding: 0 16px;
+    }
+
+    #landing-page .content-wrapper main h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    #landing-page .content-wrapper main p {
+        font-size: 14.5px;
+        margin-top: 14px;
+    }
+
+    #landing-page .location {
+        bottom: 0;
+        left: 0;
+        right: auto;
+        top: auto;
+
+        align-items: center;
+    }
+
+    #landing-page .location strong, 
+    #landing-page .location span {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    #landing-page .enter-app {
+        height: 45px;
+        width: 48px;
+
+        border-radius: 18px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1100px) {
+    #landing-page {
+        padding: 30px 0;
+    }
+
+    #landing-page .content-wrapper {
+        background-size: 38%;
+
+        width: 90vw;
+    } 
+
+    #landing-page .content-wrapper img {
+        width: 150px;
+    }
+
+    #landing-page .content-wrapper main {
+        width: 40%;
+    }
+
+    #landing-page .content-wrapper main h1 {
+        font-size: 34px; 
+        line-height: 40px;
+    }
+
+    #landing-page .content-wrapper main p {
+        font-size: 16px;
+    }
+    
+}
