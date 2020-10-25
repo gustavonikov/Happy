@@ -91,7 +91,6 @@ export default function CreateOrphanage() {
 
                         <Map 
                             center={[-7.139762,-34.844131]} 
-                            style={{ width: '100%', height: 280 }}
                             zoom={13}
                             onClick={handleMapClick}
                         >
@@ -169,7 +168,7 @@ export default function CreateOrphanage() {
                     </fieldset>
 
                     <button className="confirm-button" type="submit">
-            Confirmar
+                        Confirmar
                     </button>
                 </form>
             </main>

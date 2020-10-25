@@ -246,8 +246,8 @@
         line-height: 19px;
     }
 
-    .leaflet-touch .leaflet-control-zoom-in,
-    .leaflet-touch .leaflet-control-zoom-out {
+    #map-page .leaflet-touch .leaflet-control-zoom-in,
+    #map-page .leaflet-touch .leaflet-control-zoom-out {
         font-size: 18px!important;
     }
 

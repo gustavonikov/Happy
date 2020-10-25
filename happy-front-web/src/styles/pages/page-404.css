@@ -13,3 +13,13 @@
 
     border-radius: 20px;
 }
+
+@media (max-width: 700px) {
+    .page-404 {
+        font-size: 13px;
+    }
+
+    .page-404 img {
+        width: 220px;
+    }
+}

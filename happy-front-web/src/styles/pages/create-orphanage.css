@@ -20,9 +20,16 @@ form.create-orphanage-form {
 }
 
 form.create-orphanage-form .leaflet-container {
+	width: 100%;
+	height: 280px;
 	margin-bottom: 38px;
 	border: 1px solid #D3E2E5;
 	border-radius: 15px;
+}
+
+/* This property should display if u gonna use commercially */
+form.create-orphanage-form .leaflet-touch .leaflet-control-attribution {
+	display: none;
 }
 
 form.create-orphanage-form fieldset {
@@ -61,7 +68,7 @@ form.create-orphanage-form .input-block label span {
 	font-size: 14px;
 	color: #8FA7B3;
 	margin-left: 24px;
-	line-height: 24px;
+	line-height: 26px;
 }
 
 form.create-orphanage-form .input-block input,
@@ -182,4 +189,141 @@ form.create-orphanage-form button.confirm-button:hover {
 
 form.create-orphanage-form button.confirm-button:focus {
 	border: 1px solid #4e6b70;
+}
+
+@media (max-width: 750px) {
+	form.create-orphanage-form {
+		width: 300px;
+		margin: 80px auto;
+	
+		padding: 40px 15px;
+	}
+	
+	form.create-orphanage-form .leaflet-container {
+		border-radius: 10px;
+		width: 100%;
+		height: 280px;
+		z-index: 2;
+	}
+
+	form.create-orphanage-form .leaflet-touch .leaflet-bar a {
+        width: 20px;
+        height: 20px;
+        line-height: 19px;
+    }
+
+    form.create-orphanage-form .leaflet-touch .leaflet-control-zoom-in,
+    form.create-orphanage-form .leaflet-touch .leaflet-control-zoom-out {
+        font-size: 18px!important;
+    }
+
+	form.create-orphanage-form fieldset legend {
+		font-size: 24px;
+		line-height: 30px;
+
+		margin-bottom: 30px;
+		padding-bottom: 15px;
+	}
+	
+	form.create-orphanage-form .input-block label span {
+		font-size: 13px;
+	}
+
+	form.create-orphanage-form .input-block input,
+	form.create-orphanage-form .input-block textarea {
+		border-radius: 15px;
+		font-size: 15px;
+	}
+
+	form.create-orphanage-form .input-block input {
+		height: 44px;
+		padding: 0 14px;
+	}
+	
+	form.create-orphanage-form .input-block textarea {
+		padding: 10px;
+		line-height: 14px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container {
+		grid-gap: 7px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container img {
+		height: 50px;
+
+		border-radius: 8px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container .new-image {
+		height: 50px;
+
+		border-radius: 8px;
+	}
+
+	form.create-orphanage-form .input-block .images-container .new-image :only-child {
+		height: 30px;
+	}
+	
+	form.create-orphanage-form .input-block .button-select button {
+		height: 54px;
+	}
+	
+	form.create-orphanage-form .input-block .button-select button:first-child {
+		border-radius: 16px 0px 0px 16px;
+	}
+	
+	form.create-orphanage-form .input-block .button-select button:last-child {
+		border-radius: 0 16px 16px 0;
+	}
+	
+	form.create-orphanage-form button.confirm-button {
+		height: 60px;
+	}
+
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+	form.create-orphanage-form {
+		width: 500px;
+
+		padding: 42px 55px;
+	}
+
+	form.create-orphanage-form .leaflet-touch .leaflet-bar a {
+        width: 25px;
+        height: 25px;
+        line-height: 24px;
+    }
+
+    form.create-orphanage-form .leaflet-touch .leaflet-control-zoom-in,
+    form.create-orphanage-form .leaflet-touch .leaflet-control-zoom-out {
+        font-size: 18px!important;
+    }
+
+	form.create-orphanage-form fieldset legend {
+		font-size: 28px;
+	}
+	
+	form.create-orphanage-form .input-block input,
+	form.create-orphanage-form .input-block textarea {
+		border-radius: 15px;
+		font-size: 16px;
+	}
+
+	form.create-orphanage-form .input-block input {
+		height: 50px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container {
+		grid-gap: 10px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container img {
+		height: 70px;
+	}
+	
+	form.create-orphanage-form .input-block .images-container .new-image {
+		height: 70px;
+	}
 }
