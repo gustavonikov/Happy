@@ -7,3 +7,6 @@ To get started, you may want to download the project zip file or use ``git clone
 
 You will have the 3 folders containing the front-web project, front-mobile project and the back-end project, each one
 of them, possess they own README.md, that will guide you through.
+
+### WARNING
+The project server is offline, so, you won't be able to navigate properly on the app.
