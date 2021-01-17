@@ -24,7 +24,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build": {
+      "env": {
+      "REACT_APP_MAPBOX_ACCESS_TOKEN": "@token"
+    }
+    ,
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
